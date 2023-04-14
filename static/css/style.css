@@ -8,3 +8,50 @@ body,
 html {
   height: 100%;
 }
+
+
+.legend {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  font-size: 12px;
+  padding: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.darkorange {
+  background-color: darkorange;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.green {
+  background-color: green;
+}
